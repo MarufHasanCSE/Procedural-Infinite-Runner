@@ -1,0 +1,28 @@
+body {
+    background: #0f172a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #22d3ee;
+}
+
+.ui {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+canvas {
+    background: #1e293b;
+    border-bottom: 4px solid #22d3ee;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.hint {
+    margin-top: 15px;
+    color: #64748b;
+}
