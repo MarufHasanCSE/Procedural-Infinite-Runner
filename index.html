@@ -3,15 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neon Runner</title>
+    <title>Neon Overdrive</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="ui">
-        <div id="score">0m</div>
+    <div class="game-container">
+        <div class="hud">
+            <div id="score">00000</div>
+            <div id="multiplier">x1.0</div>
+        </div>
+        <canvas id="gameCanvas" width="800" height="400"></canvas>
+        <div class="controls">SPACE to Double Jump</div>
     </div>
-    <canvas id="gameCanvas" width="800" height="300"></canvas>
-    <div class="hint">Press SPACE or UP to Jump</div>
     <script src="script.js"></script>
 </body>
 </html>
